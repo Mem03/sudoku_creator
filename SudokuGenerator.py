@@ -1,3 +1,5 @@
+import random
+import copy
 class SudokuSolver:
     def __init__(self, size = 9, subgrid_size=3):
         self.size = size
